@@ -1,0 +1,37 @@
+public class Main{
+
+public static void main(String[] args){
+//Primera Parte
+int param1=5;
+
+int param2=10;
+
+int param3=15;
+
+var valor :int =suma(param1,param2,param3);
+
+System.out.print(valor);
+//Segunda Parte
+Coche miCoche=new Coche();
+
+miCoche.Agregarpuertas();
+
+System.out.print(miCoche.puertas);
+
+}
+
+public static int suma(int a, int b, int c){
+
+return a+b+c;
+
+}
+
+class Coche{
+
+public int puertas=0;
+
+public void Agregarpuertas(){this.puertas++;}
+
+}
+
+}
