@@ -1,0 +1,41 @@
+public class main{
+
+public static void main(String[] args){
+//Parte 1
+int numeroif=2;
+if(numeroif==0){System.out.print("El numero es igual a cero");}
+else if(numeroif>0){System.out.print("El numero es mayor a cero);}
+else if(numeroif<0){System.out.print("El numero es menor a cero);}
+//Parte 2
+int numerowhile=0;
+while(numerowhile<3){System.out.print(numerowhile); numerowhile=numerowhile+1;}
+//Parte 3
+int numeroDowhile=0;
+do{
+System.out.print(numeroDowhile);
+numeroDowhile=numeroDowhile+3;
+}while(numeroDowhile>3);
+//Parte 4
+for(int numeroFor=0;numerFor<3;numeroFor++){System.out.print(numeroFor);}
+//Parte 5
+var estacion="Verano";
+switch(estacion){
+case "Verano":
+      System.out.println("La estacion es Verano");
+      break;
+case "Invierno":
+      System.out.println("La estacion es Invierno");
+      break;
+case "Otonio":
+      System.out.println("La estacion es Otonio");
+      break;
+case "Primavera":
+      System.out.println("La estacion es Primavera");
+      break;
+default:
+   System.out.println("Esto no es una estacion");
+
+}
+}
+
+}
